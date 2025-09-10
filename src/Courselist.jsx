@@ -5,7 +5,15 @@ import './App.css'
 import Course from './Course'
 
 function Courselist(){
-    // useEffect(()=>{console.log("hi")});
+    useEffect(()=>{
+console.log("fetch");
+fetch('https://jsonplaceholder.typicode.com/posts')
+.then(Response =>{;
+    return Response.json()
+})
+.then(data => console.log(data))
+
+    },[]);
 
 const courses=[
     {

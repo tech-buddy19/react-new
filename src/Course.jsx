@@ -16,7 +16,7 @@ function Course(props){
   
     console.log(purchased);
 }
-useEffect(()=>{console.log("hi")});
+// useEffect(()=>{console.log("hi")});
 
     return(
 <div className='card'>
