@@ -1,25 +1,14 @@
-.background{
-  background: fixed;
-  background-color:burlywood;
+.w-50{
+  width: 50%;
 }
 
-
-.card{
-  background-color: aqua;
-  max-width: 150px;
-  border: 2px solid black;
-  border-radius: 5%;
-  font-family: sans-serif;
-  font-size: small;
-  padding: 10px;
-  text-align: center;
-
+.logo-text{
+  width: 20px;
 }
-.card img{
-  width: 150px;
-  margin: auto;
-  display: flex;
-  background-color:beige ;
-  backface-visibility: visible black;
-border-radius: 4px;
+.bi{
+  margin-right: 10px ;
+}
+.story{
+  height: 100px;
+  color: cadetblue;
 }
