@@ -1,11 +1,11 @@
 import React from 'react'
 import Story from './Story'
-import Post from './Post'
+import Posts from './Posts'
 function Feed(){
     return (
         <div>
-            <div className='bg-info'>story</div>
-            <div></div>
+            <div><Story /></div>
+            <div><Posts /></div>
         </div>
 
 

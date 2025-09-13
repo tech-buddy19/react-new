@@ -9,6 +9,17 @@
   margin-right: 10px ;
 }
 .story{
-  height: 100px;
+  height: 50px;
   color: cadetblue;
+}
+.abo{
+  width: 20%;
+  height: 80%;
+  border-radius: 10%;
+}
+.abi{
+  border-radius: 10%;
+  width: 100%;
+
+  background-color: aqua;
 }
