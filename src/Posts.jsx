@@ -11,12 +11,14 @@ function Posts(){
 
     },[]);
     return (
-<div>
+<div >
     {posts.map((posts)=>(
         <div key={posts.id}>
-            <div>
-           <div>
-            <h5>{posts.user.name}</h5></div>
+            <div className='w-10 d-flex'>
+           <div className='d-flex'>
+            
+                <img className="dp rounded-circle" src={posts.po_pic} alt='akash'/></div>
+                <h5>{posts.user.name}</h5>
             </div>
             <div>
             <img className="abo w-50" src={posts.po_pic} alt='' />
@@ -25,6 +27,7 @@ function Posts(){
                 <i className="bi bi-chat"></i>
                 <i className="bi bi-send"></i>
                 <i className="bi bi-bookmark"></i>
+ <h6>{posts.user.likes}</h6>
             </div><div>
                 <b>{posts.user.caption}</b>
             </div>
